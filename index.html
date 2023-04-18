@@ -421,8 +421,7 @@
           </ul>
         </div>
         <div class="subscribe-wrap">
-          <p class="fotter-social">Subscribe</p>
-          <div class="subscribe-input-box">
+           <p class="fotter-social">Subscribe</p>
             <form class="fotter-form">
               <input
                 type="text"
@@ -430,16 +429,14 @@
                 class="footer-input"
                 placeholder="E-mail"
               />
-            </form>
-            <button class="subscribe-btn" type="button">
+              <button class="subscribe-btn" type="button">
               Subscribe
               <svg width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram-icon"></use>
               </svg>
             </button>
+            </form>
           </div>
-        </div>
-      </div>
     </footer>
     <div class="backdrob is-hidden" data-modal>
       <div class="modal">
@@ -500,12 +497,12 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field ">
             <label for="email" class="user-text">Comment</label>
             <textarea
               name=""
               id="user-text"
-              class="modal-textare"
+              class="modal-textare modal-input"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -518,7 +515,7 @@
               value="accept"
             />
             <label for="accept" class="input-text-accept" id="accept"
-              >I accept the terms and conditions of the Privacy Policy</label
+              >I accept the terms and conditions of the <a class="link modal-link" href="">Privacy Policy</a></label
             >
           </div>
           <button class="modal-btn" type="submit">Send</button>
